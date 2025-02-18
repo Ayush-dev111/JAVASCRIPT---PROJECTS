@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6a4c;
+
+    font-family: "Nunito", sans-serif;
+}
+
+input,button{
+    font: inherit;
+}
+.container{
+    background-color: #fff;
+    margin-top: -1rem;
+    width: 35vw;
+   
+    border-radius: 10px;
+
+    padding: 2rem;
+    
+}
+
+.container h1{
+    font-size: 2.6rem;
+    text-align: center;
+    margin: -1rem 0 1.5rem 0;
+    letter-spacing: 2px;
+}
+
+.display{
+    width: 100%;
+    height: 11%;
+ 
+    display: flex;
+    justify-content: space-between;
+   
+}
+.display input{
+    width: 70%;
+    height: 100%;
+
+    border: 0;
+    border-bottom: 3px solid #6944b3cc;
+    outline: 0;
+
+    font-size: 1.2rem;
+     padding: 1.02rem 0.25rem;
+}
+
+.display button{
+    width: 20%;
+    font-size: 1.1rem;
+    background-color: #64a964;
+    border: 0;
+    outline: 0;
+
+    color: #fff;
+    border-radius: 8px;
+
+}
+
+.result {
+    margin: 1rem 0 0 0 ;
+    display: none;
+}
+
+
+#flag-img{
+    display: block;
+    width: 45%;
+    min-width: 7.5rem;
+    border: none;
+    outline: none;
+    margin: 1.25rem auto;
+    border-radius: 5px;
+}
+
+.country-name{
+   font-weight: bold;
+   font-size: 1.3rem;
+   color: #222a43;
+   text-align: center;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+.country-data{
+    margin-bottom: .75rem;
+    letter-spacing: .2px;
+}
+
+.country-data p {
+    margin: .75rem 0 0 0 ;
+}

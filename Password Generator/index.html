@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password - Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+
+        <div class="display">
+            <input type="text" name="" id="displayPassword" placeholder="Generate Password">
+            <i class="fa-solid fa-clipboard"></i>
+        </div>
+
+        <div class="length">
+            <label for="length">Password Length: </label>
+            <input type="number" id="length" value="12" min="4" max="20">
+        </div>
+
+        <div class="settings">
+                <input type="checkbox" id="includeSymbols">
+                <label for="includeSymbols">Include Symbols</label>
+        </div>
+        <div class="settings">
+                <input type="checkbox" id="includeNumbers" checked>
+                <label for="includeNumbers">include Numbers</label>
+        </div>
+        <div class="settings">
+                <input type="checkbox" id="includeCaps">
+                <label for="includeCaps">Include Uppercase</label>
+        </div>
+        <div class="settings">
+                <input type="checkbox" id="includeLowerCase">
+                <label for="includeLowerCase">Include Lowercase</label>
+        </div>
+
+        <button class="btn">Generate Password</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

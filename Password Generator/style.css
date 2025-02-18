@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+ 
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1E1E2F;
+    color: #EDEDED;
+}
+
+input,button{
+    font: inherit;
+}
+
+.container{
+    width: 30vw;
+    height: 55vh;
+   background-color: #1E1E2F;
+    border: 5px solid #4A90E2;
+    border-radius: 5px;
+    
+    padding: 2rem;
+   
+
+}
+
+.container h1{
+
+    text-align: center;
+    margin: 0 0 .5rem 0;
+}
+
+.container .display{
+    width: 100%;
+    height: 40px;
+    background-color: #262626;
+    border: 2px solid  rgb(0, 0, 0);
+    margin: 0 0 1rem 0 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.display input{
+    
+    width: 70%;
+    height: 100%;
+
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 1rem .25rem;
+    background-color: #262626;
+    color: #EDEDED;
+   
+}
+
+input[type="number"] {
+    background-color: #262626;
+    color: #EDEDED;
+}
+
+
+.container .length{
+    font-size: 1.2rem;
+    margin: .75rem 0;
+}
+
+.display i{
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #18FFFF;
+    width: 10%;
+    text-align: center;
+}
+
+.container .settings{
+    font-size: 1.2rem;
+    margin: .75rem 0;
+}
+
+.container .btn{
+    width: 80%;
+    margin: .75rem 0 0 10%;
+    height: 2rem;
+
+    font-size: 1.1rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    background-color: #00C853;
+    color: #EDEDED;
+}

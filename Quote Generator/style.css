@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+
+    background-color: hsl(216, 85%, 20%);
+}
+
+input,select,button{
+    font: inherit;
+}
+.container{
+    width: 100%;
+    max-width: 35vw;
+    background-color: #ededed;
+
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+
+    padding: 1.25rem;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+.content{
+    font-size: 1.1rem;
+    margin: 1.2rem 0;
+}
+.quote{
+    text-align: justify;
+    margin: .75rem 0;
+}
+.author{
+    text-align: right;
+}
+
+.generate{
+    border-top: 2px solid #4acd4a;
+    padding: 1rem 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btns{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-size: 1.3rem;
+}
+
+.copy-btn, .speech-btn{
+   width: 50px;
+   height: 50px;
+   border: 2px solid black;
+   border-radius: 50%;
+}  
+
+i{
+    cursor: pointer;
+}
+
+
+.new-quote button{
+    font-size: 1.2rem;
+    width: 120px;
+    height: 45px;
+    padding: .25rem;
+    border: 0;
+    outline: 0;
+    background-color: #0077b6;
+    color: white;
+    border-radius: 2rem;
+    transition: all .3s ease-in-out;
+   
+}
+
+.new-quote button:hover{
+   background-color: white;
+   color: #0077b6;
+   border: 1px solid #48cae4;
+  
+
+}
